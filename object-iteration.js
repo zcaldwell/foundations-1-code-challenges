@@ -18,7 +18,7 @@ Output:
 }
 */
 
-export function screamingKeys(someObject) {
+export function makeMoreScreamingKeys(someObject) {
     return {};
 }
 

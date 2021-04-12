@@ -1,18 +1,102 @@
 // IMPORT MODULES under test here:
-// import { example } from '../example.js';
+import { 
+    makeArrayOfNamesWithMap,
+    makeArrayWithIsHungry,
+    makeShoutingArray,
+    makeStringArray,
+    makeArrayOfArraysOfArrays
+} from '../map.js';
 
-const test = QUnit.test;
+const { test, skip } = QUnit;
 
-test('time to test a function', (expect) => {
+const pets = [
+    { name: 'scooter', type: 'puppy' },
+    { name: 'sassy', type: 'puppy' },
+    { name: 'legzo', type: 'frog' },
+    { name: 'fluff', type: 'squrrel' },
+];
+
+
+skip('should return all names', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = true;
+    const expected = ['scooter', 'sassy', 'legzo', 'fluff'];
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = true;
+    const actual = makeArrayOfNamesWithMap(pets);
 
     //Expect
     // Make assertions about what is expected versus the actual result
-    expect.equal(actual, expected);
+    expect.deepEqual(actual, expected);
 });
+
+skip('should return all objects with an added isHungry property equal to true', (expect) => {
+    //Arrange
+    // Set up your arguments and expectations
+    const expected = [
+        { name: 'scooter', isHungry: true, type: 'puppy' },
+        { name: 'sassy', isHungry: true, type: 'puppy' },
+        { name: 'legzo', isHungry: true, type: 'frog' },
+        { name: 'fluff', isHungry: true, type: 'squrrel' },
+    ];    
+    
+    //Act 
+    // Call the function you're testing and set the result to a const
+    const actual = makeArrayWithIsHungry(pets);
+
+    //Expect
+    // Make assertions about what is expected versus the actual result
+    expect.deepEqual(actual, expected);
+});
+
+skip('should return a shouting array', (expect) => {
+    //Arrange
+    // Set up your arguments and expectations
+    const expected = [
+        { name: 'SCOOTER', type: 'puppy' },
+        { name: 'SASSY', type: 'puppy' },
+        { name: 'LEGZO', type: 'frog' },
+        { name: 'FLUFF', type: 'squrrel' },
+    ];    
+    
+    //Act 
+    // Call the function you're testing and set the result to a const
+    const actual = makeShoutingArray(pets);
+
+    //Expect
+    // Make assertions about what is expected versus the actual result
+    expect.deepEqual(actual, expected);
+});
+
+skip('should return a proper array of strings', (expect) => {
+    //Arrange
+    // Set up your arguments and expectations
+    const expected = ['scooterpuppy', 'sassypuppy', 'legzofrog', 'fluffsquirrel'];
+    //Act 
+    // Call the function you're testing and set the result to a const
+    const actual = makeStringArray(pets);
+
+    //Expect
+    // Make assertions about what is expected versus the actual result
+    expect.deepEqual(actual, expected);
+});
+
+skip('should return a proper array of arrays', (expect) => {
+    //Arrange
+    // Set up your arguments and expectations
+    const expected = [
+        [['name', 'scooter'], ['type', 'puppy']], 
+        [['name', 'sassy'], ['type', 'puppy']], 
+        [['name', 'legzo'] ['type', 'frog' ]], 
+        [['name', 'fluff'] ['type', 'squirrel']]
+    ];
+    //Act 
+    // Call the function you're testing and set the result to a const
+    const actual = makeArrayOfArraysOfArrays(pets);
+
+    //Expect
+    // Make assertions about what is expected versus the actual result
+    expect.deepEqual(actual, expected);
+});
+

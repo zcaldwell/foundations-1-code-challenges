@@ -8,31 +8,31 @@ Input:
         id: 'apple',
         price: 3,
         quantity: 2,
-        category 'fruit'
+        category: 'fruit'
     },
     { 
         id: 'banana',
         price: 1,
         quantity: 3,
-        category 'fruit'
+        category: 'fruit'
     },
     { 
         id: 'dog food',
         price: 5,
         quantity: 1,
-        category 'other'
+        category: 'other'
     },
     { 
         id: 'milk',
         price: 2,
         quantity: 1,
-        category 'dairy'
+        category: 'dairy'
     },
         { 
         id: 'cheese',
         price: 4,
         quantity: 4,
-        category 'dairy'
+        category: 'dairy'
     },
 ]
 
@@ -50,7 +50,7 @@ Output:
 */
 
 export function organizePricesByKey(arr) {
-    return [];
+    return {};
 }
 
 /*
@@ -60,37 +60,37 @@ Output:
         id: 'apple',
         price: 3,
         quantity: 2,
-        category 'fruit'
+        category: 'fruit'
     },
     banana: { 
         id: 'banana',
         price: 1,
         quantity: 3,
-        category 'fruit'
+        category: 'fruit'
     },
     'dog food': { 
         id: 'dog food',
         price: 5,
         quantity: 1,
-        category 'other'
+        category: 'other'
     },
     milk: { 
         id: 'milk',
         price: 2,
         quantity: 1,
-        category 'dairy'
+        category: 'dairy'
     },
     cheese:    { 
         id: 'cheese',
         price: 4,
         quantity: 4,
-        category 'dairy'
+        category: 'dairy'
     }
 }
 */
 
 export function makeAHashMap(arr) {
-    return [];
+    return {};
 }
 
 
@@ -104,5 +104,5 @@ Output:
 */
 
 export function countByCategory(arr) {
-    return [];
+    return {};
 }
