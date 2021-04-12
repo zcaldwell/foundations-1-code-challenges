@@ -1,4 +1,4 @@
-// Use the forEach method to solve these problems!
+// Use the forEach method to solve these problems! All functions should return a NEW array, without mutating the old array.
 
 /*
 Output:
@@ -7,7 +7,7 @@ Output:
 */
 
 export function makeArrayOfNames(arr) {
-
+    return [];
 }
 
 /*
@@ -17,7 +17,7 @@ Output:
 */
 
 export function makeReversedArrayOfTypes(arr) {
-
+    return [];
 }
 
 /*
@@ -32,6 +32,6 @@ Output:
 */
 
 export function makeSpanishLanguageArray(arr) {
-
+    return [];
 }
 

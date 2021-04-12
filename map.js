@@ -19,7 +19,7 @@ Output:
 */
 
 export function makeArrayOfNamesWithMap(arr) {
-
+    return [];
 }
 
 /*
@@ -33,7 +33,7 @@ Output:
 ]*/
 
 export function makeArrayWithIsHungry(arr) {
-
+    return [];
 }
 
 /*
@@ -47,7 +47,7 @@ Output:
 ]*/
 
 export function makeShoutingArray(arr) {
-
+    return [];
 }
 
 
@@ -58,7 +58,7 @@ Output:
 */
 
 export function makeStringArray(arr) {
-
+    return [];
 }
 
 /*
@@ -84,5 +84,5 @@ Output:
 */
 
 export function makeArrayOfArraysOfArrays(arr) {
-
+    return [];
 }

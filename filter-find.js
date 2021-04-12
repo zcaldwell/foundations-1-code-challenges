@@ -53,7 +53,7 @@ Output:
 */
 
 export function getAllDairy(arr) {
-
+    return [];
 }
 
 /*
@@ -69,24 +69,22 @@ Output:
 */
 
 export function getAllFruitsThatCostMoreThanTwo(arr) {
-
+    return [];
 }
 
 
 /*
 Output: 
-[
     { 
         id: 'cheese',
         price: 4,
         quantity: 4,
         category 'dairy'
     },
-]
 */
 
 export function findTheCheese(arr) {
-
+    return [];
 }
 
 
@@ -96,5 +94,5 @@ Output:
 */
 
 export function listNamesOfAllFruits(arr) {
-
+    return [];
 }
