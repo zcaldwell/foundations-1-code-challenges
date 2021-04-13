@@ -88,8 +88,8 @@ skip('should return a proper array of arrays', (expect) => {
     const expected = [
         [['name', 'scooter'], ['type', 'puppy']], 
         [['name', 'sassy'], ['type', 'puppy']], 
-        [['name', 'legzo'] ['type', 'frog' ]], 
-        [['name', 'fluff'] ['type', 'squirrel']]
+        [['name', 'legzo'], ['type', 'frog']], 
+        [['name', 'fluff'], ['type', 'squirrel']]
     ];
     //Act 
     // Call the function you're testing and set the result to a const
