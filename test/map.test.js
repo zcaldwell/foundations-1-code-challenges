@@ -13,7 +13,7 @@ const pets = [
     { name: 'scooter', type: 'puppy' },
     { name: 'sassy', type: 'puppy' },
     { name: 'legzo', type: 'frog' },
-    { name: 'fluff', type: 'squrrel' },
+    { name: 'fluff', type: 'squirrel' },
 ];
 
 
@@ -38,7 +38,7 @@ skip('should return all objects with an added isHungry property equal to true', 
         { name: 'scooter', isHungry: true, type: 'puppy' },
         { name: 'sassy', isHungry: true, type: 'puppy' },
         { name: 'legzo', isHungry: true, type: 'frog' },
-        { name: 'fluff', isHungry: true, type: 'squrrel' },
+        { name: 'fluff', isHungry: true, type: 'squirrel' },
     ];    
     
     //Act 
@@ -57,7 +57,7 @@ skip('should return a shouting array', (expect) => {
         { name: 'SCOOTER', type: 'puppy' },
         { name: 'SASSY', type: 'puppy' },
         { name: 'LEGZO', type: 'frog' },
-        { name: 'FLUFF', type: 'squrrel' },
+        { name: 'FLUFF', type: 'squirrel' },
     ];    
     
     //Act 
