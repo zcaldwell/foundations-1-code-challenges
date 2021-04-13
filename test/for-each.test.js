@@ -18,7 +18,7 @@ const pets = [
     }
 ];
 
-skip('should make an array of names', (expect) => {
+test('should make an array of names', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const expected = ['coco', 'jumper'];
