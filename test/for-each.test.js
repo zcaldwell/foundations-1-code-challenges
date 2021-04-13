@@ -51,12 +51,12 @@ skip('should make a spanish array of pet objects', (expect) => {
     // Set up your arguments and expectations
     const expected = [
         {
-            nombre: 'cat',
-            tipo: 'coco',
+            nombre: 'coco',
+            tipo: 'cat',
         },
         {
-            nombre: 'frog',
-            tipo: 'jumper',
+            nombre: 'jumper',
+            tipo: 'frog',
         }
     ];
     
