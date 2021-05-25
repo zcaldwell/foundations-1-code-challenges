@@ -9,18 +9,6 @@ Input:
 }
 */
 
-/*
-Output:
-{
-    WHEELS: 8,
-    TYPE: 'truck',
-    GOES: 'vroom',
-}
-*/
-
-export function makeMoreScreamingKeys(someObject) {
-    return {};
-}
 
 /*
 Output:
@@ -39,6 +27,19 @@ export function makeWeirdStringFromKeys(someObject) {
     return '';
 }
 
+
+/*
+Output:
+{
+    WHEELS: 8,
+    TYPE: 'truck',
+    GOES: 'vroom',
+}
+*/
+
+export function makeMoreScreamingKeys(someObject) {
+    return {};
+}
 
 /*
 Output:
