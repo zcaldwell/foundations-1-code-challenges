@@ -41,7 +41,6 @@ Output:
 
 export function makeMoreScreamingKeys(someObject) {
     const itemKeys = Object.keys(someObject);
-    console.log(itemKeys)
     const itemValues = Object.values(someObject);
     const newObject = {};
     itemKeys.forEach((key, i) => { 
