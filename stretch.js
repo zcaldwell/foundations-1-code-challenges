@@ -50,9 +50,7 @@ Output:
 */
 
 export function organizePricesByKey(arr) {
-    let idKeys = Object.keys(arr);
-    let priceValue = Object.values(arr);
-    console.log(idKeys);
+    
    
     
     
